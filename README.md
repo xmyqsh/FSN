@@ -1,7 +1,6 @@
 # FSN
 Fully Sparse Network
 
-```
 FSN framework is natural for image semantic feature combining which could be provided by [CropNet](https://github.com/xmyqsh/CropNet) which is responsible for realtime 100m+ object detection as while as providing semantic feature for FSN.
 
 [camera model PATENT](https://github.com/waymo-research/waymo-open-dataset/tree/master/third_party/camera) could be used in the realtime image semantic feature and Lidar Sparse feature combining.
@@ -26,18 +25,17 @@ No history or futher data using, only using current frame.
 
 In a word, just a innovate new feature has been used, no bells and whistles.
 
-```
 
 
-```
+
+
 It is just a new, coarse, easy to learn framework.
 Can be further optimize from speed to accuracy.
 
-```
 
-```
+
 `APH` could be fixed in a new way.
 All of the current good angle direction classification tools will hurt or slow down AP in FSN more or less.
 
 What interesting is that the current result of FSN on the Challenge leadboard with a buggy angle direction classifier has the best AP of all with 4 epoch training time.
-```
+
