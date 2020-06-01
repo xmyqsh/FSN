@@ -2,8 +2,11 @@
 Fully Sparse Network
 
 ```
-FSN is inspired by StarNet and based on SECOND.
-It has good PEDESTRIAN AP as StarNet does.
+FSN is inspired by StarNet and based on SECOND, spconv and use sparse resblock in Det3D.
+All of its computation power has been allocated on the points or voxels containing points.
+It has good PEDESTRIAN AP as StarNet does. And it has smaller receptive field as StarNet does.
+
+Dilation, ASPP could be adopted to enlarge the receptive field for better Vechile AP.
 
 6.5 FPS on Waymo Open Dataset with a coarse designed network.
 
