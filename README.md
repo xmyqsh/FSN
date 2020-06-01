@@ -2,15 +2,18 @@
 Fully Sparse Network
 
 ```
-6.5 FPS on Waymo Open Dataset
+FSN is inspired by StarNet and based on SECOND.
+It has good PEDESTRIAN AP as StarNet does.
 
-Easy to learn, no more than 4 epcho for training
+6.5 FPS on Waymo Open Dataset with a coarse designed network.
+
+Easy to learn, no more than 4 epoch for training
 
 No ground plane detection, no class-wise balancing, no ensemble, one model result
 
 No FPN, one scale feature detection
 
-No history or futher data using, on using current frame.
+No history or futher data using, only using current frame.
 
 In a word, just a innovate new feature has been used, no bells and whistles.
 
