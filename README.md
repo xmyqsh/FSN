@@ -6,7 +6,7 @@ FSN is inspired by StarNet and based on SECOND, spconv and use sparse resblock i
 All of its computation power has been allocated on the points or voxels containing points.
 It has good PEDESTRIAN AP as StarNet does. And it has smaller receptive field as StarNet does.
 
-Dilation, ASPP could be adopted to enlarge the receptive field for better Vechile AP.
+Dilation, ASPP, FPN could be adopted to enlarge the receptive field for better Vechile AP, with little computation effort by using spconv correctly.
 
 6.5 FPS on Waymo Open Dataset with a coarse designed network.
 
