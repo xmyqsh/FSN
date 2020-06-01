@@ -2,7 +2,7 @@
 Fully Sparse Network
 
 ```
-FSN is inspired by StarNet and based on SECOND, spconv and use sparse resblock in Det3D.
+FSN is inspired by StarNet and based on SECOND, spconv and use sparse resblock in Det3D, mmdetection framework, planning to write a tensorflow version mmdet framework for rapid experiments.
 All of its computation power has been allocated on the points or voxels containing points.
 It has good PEDESTRIAN AP as StarNet does. And it has smaller receptive field as StarNet does.
 
