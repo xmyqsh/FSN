@@ -2,6 +2,12 @@
 Fully Sparse Network
 
 ```
+FSN framework is natural for image semantic feature combining which could be provided by [CropNet](https://github.com/xmyqsh/CropNet) which is responsible for realtime 100m+ object detection as while as providing semantic feature for FSN.
+
+[camera model PATENT](https://github.com/waymo-research/waymo-open-dataset/tree/master/third_party/camera) could be used in the realtime image semantic feature and Lidar Sparse feature combining.
+
+Notice: FSN has not used RGB pixel or feature in the waymo open dataset leadboard result. 
+
 FSN is inspired by StarNet and based on SECOND, spconv and use sparse resblock in Det3D, mmdetection framework, planning to write a tensorflow version mmdet framework for rapid experiments.
 All of its computation power has been allocated on the points or voxels containing points.
 It has good PEDESTRIAN AP as StarNet does. And it has smaller receptive field as StarNet does.
