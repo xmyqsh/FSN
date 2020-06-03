@@ -1,6 +1,27 @@
 # FSN
 Fully Sparse Network
 
+Update:
+两个epoch的结果，APH修好了：）用的是自己设计的新方法修好的~~~
+
+OBJECT_TYPE_TYPE_VEHICLE_LEVEL_1: [mAP 0.54329] [mAPH 0.530153]
+
+OBJECT_TYPE_TYPE_VEHICLE_LEVEL_2: [mAP 0.475108] [mAPH 0.463525]
+
+OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_1: [mAP 0.688584] [mAPH 0.566387]
+
+OBJECT_TYPE_TYPE_PEDESTRIAN_LEVEL_2: [mAP 0.60111] [mAPH 0.493233]
+
+OBJECT_TYPE_TYPE_SIGN_LEVEL_1: [mAP 0] [mAPH 0]
+
+OBJECT_TYPE_TYPE_SIGN_LEVEL_2: [mAP 0] [mAPH 0]
+
+OBJECT_TYPE_TYPE_CYCLIST_LEVEL_1: [mAP 0.167696] [mAPH 0.145285]
+
+OBJECT_TYPE_TYPE_CYCLIST_LEVEL_2: [mAP 0.161117] [mAPH 0.139587]
+
+
+
 FSN framework is natural for image semantic feature combining which could be provided by [CropNet](https://github.com/xmyqsh/CropNet) which is responsible for realtime 100m+ object detection as while as providing semantic feature for FSN.
 
 [camera model PATENT](https://github.com/waymo-research/waymo-open-dataset/tree/master/third_party/camera) could be used in the realtime image semantic feature and Lidar Sparse feature combining.
